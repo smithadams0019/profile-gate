@@ -1,0 +1,5 @@
+# The vision classifier service in frame_classifier_service.py. The HTTP
+# server is http.server from the standard library; boto3 is the only thing
+# from outside. Frames arrive already base64-encoded from the Android
+# client, so nothing here decodes or resizes an image.
+boto3>=1.40

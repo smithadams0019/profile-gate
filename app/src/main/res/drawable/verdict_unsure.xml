@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Unsure: the cleared square with its sides missing, and an ellipsis where the
+  tick would be. An incomplete outline is the one silhouette that reads as
+  "not finished" without needing a word, which is the whole of this state.
+  Redrawn from the hand-drawn source SVG verdict-unsure.svg (kept outside this app's own tree).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:pathData="M12,32 L12,24 A12,12 0 0 1 24,12 L32,12"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path
+        android:pathData="M64,12 L72,12 A12,12 0 0 1 84,24 L84,32"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path
+        android:pathData="M84,64 L84,72 A12,12 0 0 1 72,84 L64,84"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path
+        android:pathData="M32,84 L24,84 A12,12 0 0 1 12,72 L12,64"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path
+        android:pathData="M30,48 L41,48"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M55,48 L66,48"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" />
+</vector>

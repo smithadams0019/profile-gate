@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Flagged, as an outline: the octagon every driver already reads as stop, with
+  a bar across it. Used where a refusal is possible but has not happened — a
+  tile above the declared band, sitting in the row.
+  Redrawn from the hand-drawn source SVG verdict-flagged.svg (kept outside this app's own tree).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:pathData="M62.5,12.9 L83.1,33.5 L83.1,62.5 L62.5,83.1 L33.5,83.1 L12.9,62.5 L12.9,33.5 L33.5,12.9 Z"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path
+        android:pathData="M29,48 L67,48"
+        android:strokeColor="#FFFFFFFF" android:strokeWidth="8"
+        android:strokeLineCap="round" />
+</vector>

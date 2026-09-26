@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cleared: a closed square with a tick.
+
+  The square is the point. `verdict_unsure` is the same square with its sides
+  taken out and `verdict_flagged` is an octagon, so the three marks differ in
+  silhouette before any colour or word resolves. Redrawn from
+  the hand-drawn source SVG verdict-cleared.svg (kept outside this app's own tree); the rect
+  there is a path here because a VectorDrawable has no rect element.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:pathData="M24,12 L72,12 A12,12 0 0 1 84,24 L84,72 A12,12 0 0 1 72,84 L24,84 A12,12 0 0 1 12,72 L12,24 A12,12 0 0 1 24,12 Z"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M29,50 L42,63 L68,35"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
